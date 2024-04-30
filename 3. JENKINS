@@ -220,7 +220,6 @@ Host Key Verification Strategy: last option
 DASHBOARD -- > JOB -- > CONFIGURE -- > RESTRTICT WHERE THIS JOB RUN -- > LABEL: SLAVE1 -- > SAVE
 
 
-
 LINKED JOBS: 
 here jobs are linked with each other.
 types:
