@@ -218,7 +218,7 @@ privatekey : pemfile of server -- > save -- >
 Host Key Verification Strategy: last option
 
 DASHBOARD -- > JOB -- > CONFIGURE -- > RESTRTICT WHERE THIS JOB RUN -- > LABEL: SLAVE1 -- > SAVE
-
+Before build we need to make sure that git, maven and Java 1.8.0 is installed in SLAVE1 ( yum install git java-1.8.0-openjdk maven -y )
 
 LINKED JOBS: 
 here jobs are linked with each other.
