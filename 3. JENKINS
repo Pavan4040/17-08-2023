@@ -230,6 +230,8 @@ create a job2
 job1 -- > configuration -- > post build actions -- > build other projects -- > name of job2 -- > save
 
 =========================================================================
+To not start server everytime we can use "chkconfig jenkins on" command so that we don't need to start evrytime
+
 PIPELINE: 
 stpe by step execution of particular process
 series of events interlinekd with each other
