@@ -10,8 +10,8 @@ its a free and open-source tool.
 its an it engine that automates from server creation to deployment.
 It is also called a configuration management tool.
 
-configuration: cpu, memory and os
-management: update, delete, install ----
+configuration: Hardware and software properties of a server like cpu, memory and os
+management: Packages we are update, delete, install ----
 
 ansible invented by Maichel dehaan in 2012.
 ansible is taken by RedHat
