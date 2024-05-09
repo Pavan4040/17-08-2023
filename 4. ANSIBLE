@@ -81,6 +81,7 @@ ansible all -a "yum install httpd -y"
 ansible all -a "systemctl restart httpd"
 ansible all -a "systemctl status httpd"
 ansible all -a "useradd raham"
+ansible all -a "cat /etc/passwd"  #to check weather user is present or not
 
 INVENTORY HOST PATTREN:
 ansible all --list-hosts
