@@ -40,7 +40,7 @@ sudo -i
 
 
 passwd root
-vim /etc/ssh/sshd_config  (38 uncomment, 63 no=yes) #To give permissions root user to login
+vim /etc/ssh/sshd_config  (38 uncomment PermitRootLogin, 63 PasswordAuthentication no=yes) #To give permissions root user to login
 systemctl restart sshd #as sshd is a service we need to run this command
 systemctl status sshd
 
