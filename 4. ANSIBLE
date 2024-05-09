@@ -69,7 +69,7 @@ NOTE: COPY THE KEYS TO ALL WORKER NODES BY USING ABOVE METHOD
 
 1. ADHOC COMMANDS:
 these are simple linux comands.
-used for temp works.
+used for temporary works.
 these commands will be over rided.
 
 ansible all -a "yum install git -y"
