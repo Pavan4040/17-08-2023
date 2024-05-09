@@ -60,7 +60,7 @@ vim /etc/ansible/hosts (12) #Inventory file
 ssh-keygen #used to generate the keys 
 enter 4 times
 ssh-copy-id root@private-ip  -- > yes -- > password
-ssh private-ip
+ssh private-ip  #It will take your particular private-ip
 ctrl d
 
 NOTE: COPY THE KEYS TO ALL WORKER NODES BY USING ABOVE METHOD
