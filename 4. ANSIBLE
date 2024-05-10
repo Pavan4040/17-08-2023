@@ -422,6 +422,9 @@ LOOPS:
 
 
 TROUBLESHOOTING:
+To see list of nods connected with ansible servers we need to go for file called known hosts < .ssh
+ansible all --list-host > it will view all hosts
+Setup module will print the complete information of a worker node.
 ansible all -m setup | grep -i cpus
 ansible all -m setup | grep -i mem
 
