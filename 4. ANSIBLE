@@ -502,6 +502,25 @@ HISTORY:
   157  history
 =============================================================================================================
 
+Conditions
+Cluster: group of nodes/servers
+
+Homogeneous: servers with same OS and flavour
+Homogeneous: Servers with different OS and flavour
+
+- hosts: all
+  tasks:
+   - name: installing apache on RedHat
+     yum: name=httpd state=present
+     when: ansible_os_family == "RedHat"
+
+   - name: installing apache on Ubuntu
+     apt: name=apache2 state=present
+     when: ansible_os_family == "Debian"
+
+ansible-playbook pavan.yml
+
+
 HANDLERS: here one task depends on another task.
 when task-1 is executed it will call task-2 to perform the action.
 ex: if we want to restart httpd we need to install it
