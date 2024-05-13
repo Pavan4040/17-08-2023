@@ -538,6 +538,7 @@ Note: here we have notify module.
 
 ansible all -a "systemctl status httpd"
 
+DRYRUN means without executong the plabook we can run check the output
 
 ANSIBLE VAULT:
 it is used to encrypt the files, playbooks ----
