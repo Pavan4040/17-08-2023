@@ -783,9 +783,9 @@ BATCH:
 
 LAMP:
 L : LINUX
-A : APACHE
-M : MYSQL
-P : PHP
+A : APACHE  Presentation layer
+M : MYSQL   
+P : PHP     Appplication layer
 
 
 
