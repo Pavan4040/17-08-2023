@@ -1,3 +1,15 @@
+Interview questions
+1. How to continue ansible plabook tasks, even if some of the tasks fail?
+A. we can use ignore_errors: true keyword to continue dispite the failure.
+
+2. Explain ways to run the same ansible plabooks on distinctive nodes with different ports and usernames
+A By adding below inventory parameters:
+  ansible_Port: The connection port number, if not the default (22 for ssh)
+  ansible_user: Thye username to use when connecting to the host
+
+
+
+
 DEOPLYMENT AUTOMATED.
 
 SERVER
