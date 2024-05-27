@@ -53,6 +53,9 @@ yum install docker -y
 systemctl start docker
 systemctl status docker
 
+to know the size of amazonlinux operating system
+cd /
+du -sh
 
 docker pull amazonlinux		: to downlaod image
 docker run -it --name cont1 amazonlinux : to create conatiner
