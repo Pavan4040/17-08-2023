@@ -163,6 +163,8 @@ CMD apt install default-jre -y
 Build : docker build -t netflix:v2 .
 cont: docker run -it --name cont4 netflix:v2
 
+when we execute CMD container will be on stopped state to check docker ps -a
+
 EX-3:
 
 FROM ubuntu
