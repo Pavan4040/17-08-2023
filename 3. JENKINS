@@ -88,10 +88,11 @@ systemctl daemon-reload
 systemctl restart jenkins.service
 systemctl status jenkins.service
 
+cd /var/lib/jenkins/workspace/job
 
 PASSWORDLESS LOGIN:
 vim /var/lib/jenkins/config.xml
-line 7 (true=false)
+line 7 (true=false)   use security
 systemctl restart jenkins.service
 systemctl status jenkins.service
 
