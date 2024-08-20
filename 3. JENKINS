@@ -96,6 +96,11 @@ line 7 (true=false)   use security
 systemctl restart jenkins.service
 systemctl status jenkins.service
 
+TO SPEED UP THE JENKINS
+Cd /var/lib/jenkins
+ls -l
+sudo vi jenkins.model.JenkinsLocationConfiguration.xml
+change the ip address to present ip
 
 CHANGING BUILD LIMITS:
 dashboard -- > manage jenkins -- > nodes -- > built-in node -- > configure -- > number of executors -- > 3 -- > save
