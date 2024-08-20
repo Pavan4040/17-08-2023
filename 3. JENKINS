@@ -81,7 +81,7 @@ bool: ture of false
 file: to build files
 
 
-PORT CHANGING:
+PORT CHANGING: to change the jenkins port number
 vim /usr/lib/systemd/system/jenkins.service
 67 (8080=8090)
 systemctl daemon-reload
