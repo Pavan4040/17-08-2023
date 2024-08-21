@@ -110,12 +110,11 @@ HOW TO RESLOVE ISSUE WHEN JENKINS SERVER IS CRASHED:
 when we stop and start server your ip will change and the services inside server also stop.
 
 
-
-RESTORING DELETE JOBS:
+RESTORING DELETED JOBS:
 
 Dashboard -- > Manage Jenkins -- > Plugins -- > available plugins -- > Job Configuration History -- > install -- > go back to top page
 
-now try to delete a job
+now try to delete a job --> Job Config History --> restore
 
 HISTORY:
 31  vim jenkins.sh
