@@ -191,6 +191,8 @@ Jenkins Dashboard -- > create ci job -- > Build triggers -- > GitHub hook trigge
 THROTTLE BUILD: to restrict number of builds per interval.
 create job -- > Throttle builds -- > Number of build: 3 -- > time period: hours -- > save 
 
+remote triggering :
+create job -- > build triggers --> trigger builds remmotely --> Authentication token --> copy the url and change values and build it
 make builds and test them
 
 =================================================================
