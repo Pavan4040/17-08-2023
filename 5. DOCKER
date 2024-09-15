@@ -114,6 +114,7 @@ apt update -y
 apt install git maven apache2 tree -y
 touch file{1..5}
 
+To create Image from container 
 docker commit cont1 raham
 docker run -it --name cont2 raham
 
