@@ -116,7 +116,7 @@ touch file{1..5}
 
 To create Image from container 
 docker commit cont1 raham
-docker run -it --name cont2 raham
+docker run -it --name cont2 raham  --> It will create new contianer and all the packages will be in this cont2
 
 check version now
 
