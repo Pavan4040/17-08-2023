@@ -343,7 +343,7 @@ touch raham{1..10}
 docker inspect cont6
 docker volume inspect volume4
 cp * /var/lib/docker/volumes/volume4/_data
-
+docker attach cont6
 
 5.
 touch raham{1..10}
